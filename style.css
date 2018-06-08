@@ -1,0 +1,70 @@
+html{
+  height:100%;
+  background-image: url('https://images.pexels.com/photos/1045844/pexels-photo-1045844.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+background-size:cover;
+}
+
+#banner{
+  padding-top: 22%;
+  font-family:'Pangolin', 'cursive';
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  color:#9370DB;
+}
+
+#heading{
+  height: 100%;
+  font-family:'Lobster', cursive;
+  display: flex;
+  justify-content: space-around;
+  color:#0066CC;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color:black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* Full width*/
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: #9370DB;
+  font-family: 'Montserrat', sans-serif;
+}
+  
+  .navbar a:hover {
+    color: white;
+    background: #9370DB;
+  }
+
+#about-content {
+ display: flex;
+ justify-content:space-around;
+ margin-top: 22%;
+}
+
+img {
+ border-radius:50%;
+ border:solid 5px #9370DB;
+}
+
+.my-description {
+ background: white;
+ margin: 3%;
+ padding: 4%;
+ font-family:'Lobster', cursive;
+}
+
+.feature-content {
+  margin-top: 15%;
+  color:#FF0000;
+}
